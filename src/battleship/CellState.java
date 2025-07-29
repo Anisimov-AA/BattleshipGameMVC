@@ -21,7 +21,6 @@ public enum CellState {
 
   /**
    * Returns the symbol representing the cell state.
-   *
    * @return the symbol representing the cell state
    */
   public String getSymbol() {

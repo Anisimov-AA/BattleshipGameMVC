@@ -40,6 +40,7 @@ public enum ShipType {
 
   @Override
   public String toString() {
-    return name() + " (Size: " + size + ")";
+//    return name() + " (Size: " + size + ")";
+    return getSymbol();
   }
 }
