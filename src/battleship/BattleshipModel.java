@@ -11,7 +11,7 @@ import java.util.Random;
 /**
  * An implementation of the Battleship game model.
  */
-public class BattleshipModel implements  IBattleshipModel{
+public class BattleshipModel implements IBattleshipModel{
 
   private ShipType[][] shipPlacementGrid; // where ships actually are
   private static final int GRID_SIZE = 10;
