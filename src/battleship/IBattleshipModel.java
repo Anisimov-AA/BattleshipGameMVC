@@ -14,14 +14,14 @@ public interface IBattleshipModel {
 
   /**
    * Processes the player's guess at the specified coordinate.
-   * @param row the row index (0-based)
-   * @param col the column index (0-based)
+   * @param x the column index (0-based)
+   * @param y the row index (0-based)
    * @return true if the guess was a hit, false otherwise
    * @throws IllegalArgumentException if the coordinates are out of bounds or the cell has already
    *                                  been guessed
    * @throws IllegalStateException    if the game is already over
    */
-  boolean makeGuess(int row, int col);
+  boolean makeGuess(int x, int y);
 
   /**
    * Checks if the game is over.
